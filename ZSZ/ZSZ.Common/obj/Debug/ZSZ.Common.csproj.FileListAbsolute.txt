@@ -1,4 +1,0 @@
-E:\DemoMVC\ZSZ\ZSZ.Common\bin\Debug\ZSZ.Common.dll
-E:\DemoMVC\ZSZ\ZSZ.Common\bin\Debug\ZSZ.Common.pdb
-E:\DemoMVC\ZSZ\ZSZ.Common\obj\Debug\ZSZ.Common.dll
-E:\DemoMVC\ZSZ\ZSZ.Common\obj\Debug\ZSZ.Common.pdb
