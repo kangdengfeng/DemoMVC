@@ -1,4 +1,0 @@
-E:\DemoMVC\ZSZ\IBLL\bin\Debug\IBLL.dll
-E:\DemoMVC\ZSZ\IBLL\bin\Debug\IBLL.pdb
-E:\DemoMVC\ZSZ\IBLL\obj\Debug\IBLL.dll
-E:\DemoMVC\ZSZ\IBLL\obj\Debug\IBLL.pdb

@@ -1,9 +1,0 @@
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\QiuNiuTest.exe.config
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\QiuNiuTest.exe
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\QiuNiuTest.pdb
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\Newtonsoft.Json.dll
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\Qiniu.dll
-E:\DemoMVC\ZSZ\QiuNiuTest\bin\Debug\Newtonsoft.Json.xml
-E:\DemoMVC\ZSZ\QiuNiuTest\obj\Debug\QiuNiuTest.csprojResolveAssemblyReference.cache
-E:\DemoMVC\ZSZ\QiuNiuTest\obj\Debug\QiuNiuTest.exe
-E:\DemoMVC\ZSZ\QiuNiuTest\obj\Debug\QiuNiuTest.pdb

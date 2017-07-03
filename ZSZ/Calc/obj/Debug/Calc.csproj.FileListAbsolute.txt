@@ -1,5 +1,0 @@
-E:\DemoMVC\ZSZ\Calc\bin\Debug\Calc.dll
-E:\DemoMVC\ZSZ\Calc\bin\Debug\Calc.pdb
-E:\DemoMVC\ZSZ\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
-E:\DemoMVC\ZSZ\Calc\obj\Debug\Calc.dll
-E:\DemoMVC\ZSZ\Calc\obj\Debug\Calc.pdb

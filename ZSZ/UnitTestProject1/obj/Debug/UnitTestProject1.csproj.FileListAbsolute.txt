@@ -1,9 +1,0 @@
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\UnitTestProject1.dll
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\Calc.dll
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\Calc.pdb
-E:\DemoMVC\ZSZ\UnitTestProject1\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-E:\DemoMVC\ZSZ\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
-E:\DemoMVC\ZSZ\UnitTestProject1\obj\Debug\UnitTestProject1.dll
-E:\DemoMVC\ZSZ\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

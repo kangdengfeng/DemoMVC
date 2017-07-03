@@ -1,7 +1,0 @@
-E:\DemoMVC\ZSZ\BLLImplement\bin\Debug\BLLImplement.dll
-E:\DemoMVC\ZSZ\BLLImplement\bin\Debug\BLLImplement.pdb
-E:\DemoMVC\ZSZ\BLLImplement\bin\Debug\IBLL.dll
-E:\DemoMVC\ZSZ\BLLImplement\bin\Debug\IBLL.pdb
-E:\DemoMVC\ZSZ\BLLImplement\obj\Debug\BLLImplement.csprojResolveAssemblyReference.cache
-E:\DemoMVC\ZSZ\BLLImplement\obj\Debug\BLLImplement.dll
-E:\DemoMVC\ZSZ\BLLImplement\obj\Debug\BLLImplement.pdb

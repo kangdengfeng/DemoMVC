@@ -1,8 +1,0 @@
-E:\DemoMVC\ZSZ\Memcachedtest\bin\Debug\Memcachedtest.exe.config
-E:\DemoMVC\ZSZ\Memcachedtest\bin\Debug\Memcachedtest.exe
-E:\DemoMVC\ZSZ\Memcachedtest\bin\Debug\Memcachedtest.pdb
-E:\DemoMVC\ZSZ\Memcachedtest\bin\Debug\Enyim.Caching.dll
-E:\DemoMVC\ZSZ\Memcachedtest\bin\Debug\Enyim.Caching.xml
-E:\DemoMVC\ZSZ\Memcachedtest\obj\Debug\Memcachedtest.csprojResolveAssemblyReference.cache
-E:\DemoMVC\ZSZ\Memcachedtest\obj\Debug\Memcachedtest.exe
-E:\DemoMVC\ZSZ\Memcachedtest\obj\Debug\Memcachedtest.pdb
