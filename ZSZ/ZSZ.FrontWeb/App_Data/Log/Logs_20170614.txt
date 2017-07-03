@@ -1,0 +1,342 @@
+2017-06-14 20:15:36,313 [11] ERROR ZSZ.FrontWeb.App_Start.ZSZExceptionFilter - 出现未处理异常
+System.ArgumentException: 城市已经存在
+   在 ZSZ.Service.CityService.AddNew(String cityName) 位置 E:\DemoMVC\ZSZ\ZSZ.Service\CityService.cs:行号 30
+   在 ZSZ.FrontWeb.Controllers.MainController.Index() 位置 E:\DemoMVC\ZSZ\ZSZ.FrontWeb\Controllers\MainController.cs:行号 16
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-06-14 20:16:24,078 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 打开了连接
+2017-06-14 20:16:24,090 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.T_AdminLogs','dbo.T_AdminUserConfig','dbo.T_Cities','dbo.T_Roles','dbo.T_Permissions','dbo.T_Attchments','dbo.T_Houses','dbo.T_Communities','dbo.T_Regions','dbo.T_IdNames','dbo.T_HousePics','dbo.T_HouseAppointments','dbo.T_Users','dbo.T_Settings','dbo.T_RolePermissions','dbo.T_AdminUserRoles','dbo.T_HouseAttachments')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-06-14 20:16:24,090 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,090 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:16:24 +08:00
+ 执行
+2017-06-14 20:16:24,093 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 2 毫秒内完成，结果为: 17
+
+2017-06-14 20:16:24,093 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,093 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 关闭了连接
+2017-06-14 20:16:24,150 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 打开了连接
+2017-06-14 20:16:24,202 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-06-14 20:16:24,202 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,203 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:16:24,203 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:16:24 +08:00
+ 执行
+2017-06-14 20:16:24,204 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:16:24,204 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,206 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 关闭了连接
+2017-06-14 20:16:24,208 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 打开了连接
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:16:24 +08:00
+ 执行
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,213 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 关闭了连接
+2017-06-14 20:16:24,241 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 打开了连接
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[T_Cities] AS [Extent1]
+        WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '北京' (Type = String, Size = 4000)
+
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:16:24 +08:00
+ 执行
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:16:24,273 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:16:24,276 [5] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:16:24 +08:00
+ 关闭了连接
+2017-06-14 20:16:40,266 [5] ERROR ZSZ.FrontWeb.App_Start.ZSZExceptionFilter - 出现未处理异常
+System.ArgumentException: 城市已经存在
+   在 ZSZ.Service.CityService.AddNew(String cityName) 位置 E:\DemoMVC\ZSZ\ZSZ.Service\CityService.cs:行号 30
+   在 ZSZ.FrontWeb.Controllers.MainController.Index() 位置 E:\DemoMVC\ZSZ\ZSZ.FrontWeb\Controllers\MainController.cs:行号 16
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-06-14 20:18:18,659 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 打开了连接
+2017-06-14 20:18:18,667 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.T_AdminLogs','dbo.T_AdminUserConfig','dbo.T_Cities','dbo.T_Roles','dbo.T_Permissions','dbo.T_Attchments','dbo.T_Houses','dbo.T_Communities','dbo.T_Regions','dbo.T_IdNames','dbo.T_HousePics','dbo.T_HouseAppointments','dbo.T_Users','dbo.T_Settings','dbo.T_RolePermissions','dbo.T_AdminUserRoles','dbo.T_HouseAttachments')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-06-14 20:18:18,667 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,667 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:18:18 +08:00
+ 执行
+2017-06-14 20:18:18,669 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 2 毫秒内完成，结果为: 17
+
+2017-06-14 20:18:18,669 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,669 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 关闭了连接
+2017-06-14 20:18:18,725 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 打开了连接
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:18:18 +08:00
+ 执行
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:18:18,777 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,780 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 关闭了连接
+2017-06-14 20:18:18,782 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 打开了连接
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:18:18 +08:00
+ 执行
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:18:18,788 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,789 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 关闭了连接
+2017-06-14 20:18:18,800 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 打开了连接
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[T_Cities] AS [Extent1]
+        WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '北京' (Type = String, Size = 4000)
+
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:18:18 +08:00
+ 执行
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:18:18,841 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:18:18,844 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:18:18 +08:00
+ 关闭了连接
+2017-06-14 20:19:20,851 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 打开了连接
+2017-06-14 20:19:20,858 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.T_AdminLogs','dbo.T_AdminUserConfig','dbo.T_Cities','dbo.T_Roles','dbo.T_Permissions','dbo.T_Attchments','dbo.T_Houses','dbo.T_Communities','dbo.T_Regions','dbo.T_IdNames','dbo.T_HousePics','dbo.T_HouseAppointments','dbo.T_Users','dbo.T_Settings','dbo.T_RolePermissions','dbo.T_AdminUserRoles','dbo.T_HouseAttachments')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-06-14 20:19:20,858 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,858 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:19:20 +08:00
+ 执行
+2017-06-14 20:19:20,860 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 1 毫秒内完成，结果为: 17
+
+2017-06-14 20:19:20,860 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,861 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 关闭了连接
+2017-06-14 20:19:20,919 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 打开了连接
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:19:20 +08:00
+ 执行
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:19:20,972 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,975 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 关闭了连接
+2017-06-14 20:19:20,977 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 打开了连接
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: 'ZSZ.Service.MyDbContext' (Type = String, Size = 4000)
+
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:19:20 +08:00
+ 执行
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:19:20,981 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:20,982 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 关闭了连接
+2017-06-14 20:19:20,993 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:20 +08:00
+ 打开了连接
+2017-06-14 20:19:21,021 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[T_Cities] AS [Extent1]
+        WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2017-06-14 20:19:21,021 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:21,021 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '北京' (Type = String, Size = 4000)
+
+2017-06-14 20:19:21,021 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:19:21 +08:00
+ 执行
+2017-06-14 20:19:21,022 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:19:21,022 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:19:21,024 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:19:21 +08:00
+ 关闭了连接
+2017-06-14 20:19:50,820 [8] ERROR ZSZ.FrontWeb.App_Start.ZSZExceptionFilter - 出现未处理异常
+System.ArgumentException: 城市已经存在
+   在 ZSZ.Service.CityService.AddNew(String cityName) 位置 E:\DemoMVC\ZSZ\ZSZ.Service\CityService.cs:行号 30
+   在 ZSZ.FrontWeb.Controllers.MainController.Index() 位置 E:\DemoMVC\ZSZ\ZSZ.FrontWeb\Controllers\MainController.cs:行号 16
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-06-14 20:37:45,397 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:37:45 +08:00
+ 打开了连接
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[T_Cities] AS [Extent1]
+        WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '北京' (Type = String, Size = 4000)
+
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/14 20:37:45 +08:00
+ 执行
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-14 20:37:45,477 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-14 20:37:45,480 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/14 20:37:45 +08:00
+ 关闭了连接

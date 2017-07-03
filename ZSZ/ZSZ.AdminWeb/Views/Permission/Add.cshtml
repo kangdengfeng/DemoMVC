@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form id="formAdd">
+    名称：<input type="text" name="name" id="name"/>
+    描述:<input type="text" name="description" id="description" />
+    <input type="button" value="保存" id="btnSave" />
+</form>
+@section FooterScript
+{
+    <script type="text/javascript">
+        var saveAjax = function () {
+            //var name = $("#name").val();
+            //var description = $("#description").val();
+            var formData = $("#formAdd").serializeArray();
+            $.ajax({
+                url: "/Permission/Add",
+                type: "post",
+                data:formData,
+                /*
+                data: {
+                    Name: name,
+                    Desctiption: description
+                },
+                */
+                dataType: "json",
+                success: function (res) {
+                    if (res.status == "ok") {
+                         alert("OK");
+                        //刷新父窗口
+                         parent.location.reload();
+                    }
+                    else {
+                        alert("error");
+                    }
+                },
+                error: function () { alert("请求出错") }
+            });
+        };
+
+
+            $(function () {
+                $("#btnSave").click(saveAjax);
+            });
+        
+    </script>
+}

@@ -1,0 +1,4 @@
+E:\DemoMVC\ZSZ\TestIService\bin\Debug\TestIService.dll
+E:\DemoMVC\ZSZ\TestIService\bin\Debug\TestIService.pdb
+E:\DemoMVC\ZSZ\TestIService\obj\Debug\TestIService.dll
+E:\DemoMVC\ZSZ\TestIService\obj\Debug\TestIService.pdb

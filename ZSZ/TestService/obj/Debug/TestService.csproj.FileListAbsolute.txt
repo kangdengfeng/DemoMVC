@@ -1,0 +1,7 @@
+E:\DemoMVC\ZSZ\TestService\bin\Debug\TestService.dll
+E:\DemoMVC\ZSZ\TestService\bin\Debug\TestService.pdb
+E:\DemoMVC\ZSZ\TestService\bin\Debug\TestIService.dll
+E:\DemoMVC\ZSZ\TestService\bin\Debug\TestIService.pdb
+E:\DemoMVC\ZSZ\TestService\obj\Debug\TestService.csprojResolveAssemblyReference.cache
+E:\DemoMVC\ZSZ\TestService\obj\Debug\TestService.dll
+E:\DemoMVC\ZSZ\TestService\obj\Debug\TestService.pdb

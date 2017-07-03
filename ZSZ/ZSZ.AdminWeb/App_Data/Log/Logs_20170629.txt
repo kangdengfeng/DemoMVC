@@ -1,0 +1,12 @@
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '795' (Type = Int64, IsNullable = false)
+
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/29 14:10:30 +08:00
+ 执行
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-29 14:10:30,080 [47] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/29 14:10:30 +08:00
+ 关闭了连接

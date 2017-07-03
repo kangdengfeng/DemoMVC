@@ -1,0 +1,13 @@
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\esTest2verycd.exe.config
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\esTest2verycd.exe
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\esTest2verycd.pdb
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\PlainElastic.Net.dll
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\System.Data.SQLite.dll
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\PlainElastic.Net.pdb
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\PlainElastic.Net.xml
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\System.Data.SQLite.xml
+E:\DemoMVC\ZSZ\esTest2verycd\obj\Debug\esTest2verycd.csprojResolveAssemblyReference.cache
+E:\DemoMVC\ZSZ\esTest2verycd\obj\Debug\esTest2verycd.exe
+E:\DemoMVC\ZSZ\esTest2verycd\obj\Debug\esTest2verycd.pdb
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\Newtonsoft.Json.dll
+E:\DemoMVC\ZSZ\esTest2verycd\bin\Debug\Newtonsoft.Json.xml

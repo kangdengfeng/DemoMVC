@@ -1,0 +1,81 @@
+﻿@model ZSZ.DTO.PermissionDTO[]
+@{
+    ViewBag.Title = "新增角色";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form id="formAdd">
+    <input type="hidden" name="age" value="3" />
+    <div class="row c1">
+        <label class="form-label col-3"><span class="c-red">*</span>管理员名称：：</label>
+        <div class="formControls col-5">
+            <input type="text" class="input-text" name="name" id="name" datatype="*1-50" nullmsg="角色名称不能为空" />
+        </div>
+        <div class="col-xs-12 col-sm-12"> </div>
+    </div>
+    <div class="row c1">
+        @foreach (var perm in Model)
+        {
+            <div class="col-xs-12 col-sm-3">
+                <input type="checkbox" id="PermissionIds_@perm.Id" name="PermissionIds" value="@perm.Id" />
+                <label for="PermissionIds_@perm.Id">@perm.Name</label>
+                @*label for点击文字也会给复选框打钩*@
+            </div>
+        }
+    </div>
+    <div class="row c1">
+        <div class="col-xs-12 col-sm-12">
+            <input type="button" value="保存" id="btnSave" />
+        </div>
+    </div>
+</form>
+@section FooterScript
+{
+    <script type="text/javascript">
+        var saveAjax = function () {
+            //var name = $("#name").val();
+            //var description = $("#description").val();
+            var formData = $("#formAdd").serializeArray();
+            $.ajax({
+                url: "/Role/Add",
+                type: "post",
+                data: formData,
+                /*
+                data: {
+                    Name: name,
+                    Desctiption: description
+                },
+                */
+                dataType: "json",
+                success: function (res) {
+                    if (res.status == "ok") {
+                        alert("OK");
+                        //刷新父窗口
+                        parent.location.reload();
+                    }
+                    else {
+                        alert("error");
+                    }
+                },
+                error: function () { alert("请求出错") }
+            });
+        };
+
+
+        $(function () {
+            //$("#btnSave").click(saveAjax);
+            //var validForm = $("#formAdd").Validform({ tiptype: 2 });
+            var validForm = $("#formAdd").Validform({ tiptype: 3 });
+            $("#btnSave").click(function () {
+                if (validForm.check(false)) {
+                    saveAjax();
+                }
+            });
+        });
+
+    </script>
+}
+
+
+
+

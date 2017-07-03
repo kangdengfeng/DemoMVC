@@ -1,0 +1,2676 @@
+2017-06-25 16:00:03,369 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 打开了连接
+2017-06-25 16:00:03,486 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:03,486 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,486 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:00:03,486 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:03 +08:00
+ 执行
+2017-06-25 16:00:03,490 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 3 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:03,490 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,491 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 关闭了连接
+2017-06-25 16:00:03,491 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 打开了连接
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:03 +08:00
+ 执行
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 关闭了连接
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 打开了连接
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:00:03,492 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:03 +08:00
+ 执行
+2017-06-25 16:00:03,493 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:03,493 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:03,493 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:03 +08:00
+ 关闭了连接
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 打开了连接
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:23 +08:00
+ 执行
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,013 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 关闭了连接
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 打开了连接
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:23 +08:00
+ 执行
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 关闭了连接
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 打开了连接
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:23 +08:00
+ 执行
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:23,014 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:23,015 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:23 +08:00
+ 关闭了连接
+2017-06-25 16:00:35,421 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 打开了连接
+2017-06-25 16:00:35,422 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:35,422 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,422 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:00:35,422 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:35 +08:00
+ 执行
+2017-06-25 16:00:35,423 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:35,423 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,423 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 关闭了连接
+2017-06-25 16:00:35,425 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 打开了连接
+2017-06-25 16:00:35,426 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:35,426 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,426 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:00:35,426 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:35 +08:00
+ 执行
+2017-06-25 16:00:35,427 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:35,427 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,427 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 关闭了连接
+2017-06-25 16:00:35,428 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 打开了连接
+2017-06-25 16:00:35,429 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:00:35,429 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,429 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:00:35,429 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:00:35 +08:00
+ 执行
+2017-06-25 16:00:35,430 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:00:35,430 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:00:35,430 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:00:35 +08:00
+ 关闭了连接
+2017-06-25 16:01:10,051 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 打开了连接
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:01:10 +08:00
+ 执行
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 关闭了连接
+2017-06-25 16:01:10,052 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 打开了连接
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:01:10 +08:00
+ 执行
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,053 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 关闭了连接
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 打开了连接
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:01:10 +08:00
+ 执行
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:01:10,054 [17] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:01:10 +08:00
+ 关闭了连接
+2017-06-25 16:04:47,629 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 打开了连接
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:04:47 +08:00
+ 执行
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:04:47,724 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,725 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 关闭了连接
+2017-06-25 16:04:47,726 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 打开了连接
+2017-06-25 16:04:47,726 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:04:47,726 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,726 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:04:47,726 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:04:47 +08:00
+ 执行
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 关闭了连接
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 打开了连接
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:04:47 +08:00
+ 执行
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:04:47,727 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:04:47,728 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:04:47 +08:00
+ 关闭了连接
+2017-06-25 16:05:43,506 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:05:43 +08:00
+ 打开了连接
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:05:43 +08:00
+ 执行
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:05:43,590 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:05:43,591 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:05:43 +08:00
+ 关闭了连接
+2017-06-25 16:07:44,191 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 打开了连接
+2017-06-25 16:07:44,266 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:07:44,266 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,266 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:07:44,266 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:07:44 +08:00
+ 执行
+2017-06-25 16:07:44,267 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:07:44,267 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,267 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 关闭了连接
+2017-06-25 16:07:44,268 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 打开了连接
+2017-06-25 16:07:44,268 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:07:44,268 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,268 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:07:44,268 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:07:44 +08:00
+ 执行
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 关闭了连接
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 打开了连接
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:07:44,269 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:07:44 +08:00
+ 执行
+2017-06-25 16:07:44,270 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:07:44,270 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:07:44,270 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:07:44 +08:00
+ 关闭了连接
+2017-06-25 16:09:01,406 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:01 +08:00
+ 打开了连接
+2017-06-25 16:09:01,501 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:09:01,501 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:01,502 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:09:01,502 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:09:01 +08:00
+ 执行
+2017-06-25 16:09:01,502 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:09:01,502 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:01,503 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:01 +08:00
+ 关闭了连接
+2017-06-25 16:09:03,902 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:03 +08:00
+ 打开了连接
+2017-06-25 16:09:03,903 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:09:03,903 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:03,903 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:09:03,903 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:09:03 +08:00
+ 执行
+2017-06-25 16:09:03,904 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:09:03,904 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:03,904 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:03 +08:00
+ 关闭了连接
+2017-06-25 16:09:06,290 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:06 +08:00
+ 打开了连接
+2017-06-25 16:09:06,291 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:09:06,291 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:06,291 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:09:06,291 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:09:06 +08:00
+ 执行
+2017-06-25 16:09:06,292 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 1 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:09:06,292 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:09:06,292 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:09:06 +08:00
+ 关闭了连接
+2017-06-25 16:10:11,867 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 打开了连接
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:11 +08:00
+ 执行
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:11,868 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 关闭了连接
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 打开了连接
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:11 +08:00
+ 执行
+2017-06-25 16:10:11,869 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 关闭了连接
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 打开了连接
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:10:11,870 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:11 +08:00
+ 执行
+2017-06-25 16:10:11,871 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:11,871 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:11,871 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:11 +08:00
+ 关闭了连接
+2017-06-25 16:10:52,572 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 打开了连接
+2017-06-25 16:10:52,647 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:52,647 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,648 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:10:52,648 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:52 +08:00
+ 执行
+2017-06-25 16:10:52,648 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:52,648 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,649 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 关闭了连接
+2017-06-25 16:10:52,649 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 打开了连接
+2017-06-25 16:10:52,649 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:52,649 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:52 +08:00
+ 执行
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 关闭了连接
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 打开了连接
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:10:52 +08:00
+ 执行
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:10:52,650 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:10:52 +08:00
+ 关闭了连接
+2017-06-25 16:11:19,292 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 打开了连接
+2017-06-25 16:11:19,293 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:11:19,293 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,294 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:11:19,294 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:11:19 +08:00
+ 执行
+2017-06-25 16:11:19,294 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:11:19,294 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,295 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 关闭了连接
+2017-06-25 16:11:19,296 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 打开了连接
+2017-06-25 16:11:19,297 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:11:19,297 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,297 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:11:19,297 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:11:19 +08:00
+ 执行
+2017-06-25 16:11:19,297 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:11:19,298 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,298 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 关闭了连接
+2017-06-25 16:11:19,299 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 打开了连接
+2017-06-25 16:11:19,300 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:11:19,300 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,300 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:11:19,300 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:11:19 +08:00
+ 执行
+2017-06-25 16:11:19,301 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:11:19,301 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:11:19,301 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:11:19 +08:00
+ 关闭了连接
+2017-06-25 16:13:15,212 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 打开了连接
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:13:15 +08:00
+ 执行
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,213 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 关闭了连接
+2017-06-25 16:13:15,214 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 打开了连接
+2017-06-25 16:13:15,214 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:13:15,214 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:13:15 +08:00
+ 执行
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 关闭了连接
+2017-06-25 16:13:15,215 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 打开了连接
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:13:15 +08:00
+ 执行
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:13:15,216 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:13:15 +08:00
+ 关闭了连接
+2017-06-25 16:14:52,161 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 打开了连接
+2017-06-25 16:14:52,161 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:14:52,161 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,161 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 16:14:52,161 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:14:52 +08:00
+ 执行
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 关闭了连接
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 打开了连接
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:14:52 +08:00
+ 执行
+2017-06-25 16:14:52,162 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 关闭了连接
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 打开了连接
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 16:14:52 +08:00
+ 执行
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 16:14:52,163 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 16:14:52 +08:00
+ 关闭了连接
+2017-06-25 17:31:04,954 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:04 +08:00
+ 打开了连接
+2017-06-25 17:31:05,038 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:31:05,038 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,038 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:31:05,038 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:31:05 +08:00
+ 执行
+2017-06-25 17:31:05,038 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:31:05,039 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,039 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:05 +08:00
+ 关闭了连接
+2017-06-25 17:31:05,040 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:05 +08:00
+ 打开了连接
+2017-06-25 17:31:05,040 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:31:05,040 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,040 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:31:05,040 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:31:05 +08:00
+ 执行
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:05 +08:00
+ 关闭了连接
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:05 +08:00
+ 打开了连接
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:31:05 +08:00
+ 执行
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:31:05,041 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:31:05 +08:00
+ 关闭了连接
+2017-06-25 17:35:00,605 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 打开了连接
+2017-06-25 17:35:00,691 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:00,691 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,691 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:35:00,692 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:00 +08:00
+ 执行
+2017-06-25 17:35:00,692 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:00,692 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,693 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 关闭了连接
+2017-06-25 17:35:00,693 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 打开了连接
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:00 +08:00
+ 执行
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 关闭了连接
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 打开了连接
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:00,694 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,695 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:35:00,695 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:00 +08:00
+ 执行
+2017-06-25 17:35:00,695 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:00,695 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:00,695 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:00 +08:00
+ 关闭了连接
+2017-06-25 17:35:11,398 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 打开了连接
+2017-06-25 17:35:11,399 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:11,399 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,399 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:35:11,400 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:11 +08:00
+ 执行
+2017-06-25 17:35:11,400 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:11,400 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,401 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 关闭了连接
+2017-06-25 17:35:11,402 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 打开了连接
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:11 +08:00
+ 执行
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:11,403 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,404 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 关闭了连接
+2017-06-25 17:35:11,405 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 打开了连接
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:35:11 +08:00
+ 执行
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:35:11,406 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:35:11,407 [11] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:35:11 +08:00
+ 关闭了连接
+2017-06-25 17:38:15,836 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 打开了连接
+2017-06-25 17:38:15,920 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:38:15,920 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,920 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:38:15,920 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:38:15 +08:00
+ 执行
+2017-06-25 17:38:15,921 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:38:15,921 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,921 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 关闭了连接
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 打开了连接
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:38:15 +08:00
+ 执行
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,922 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 关闭了连接
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 打开了连接
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:38:15 +08:00
+ 执行
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:38:15,923 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:38:15 +08:00
+ 关闭了连接
+2017-06-25 17:39:25,863 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 打开了连接
+2017-06-25 17:39:25,864 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:39:25,864 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,864 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:39:25,864 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:39:25 +08:00
+ 执行
+2017-06-25 17:39:25,865 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:39:25,865 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,865 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 关闭了连接
+2017-06-25 17:39:25,867 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 打开了连接
+2017-06-25 17:39:25,867 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:39:25,867 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,867 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:39:25,867 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:39:25 +08:00
+ 执行
+2017-06-25 17:39:25,868 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:39:25,868 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,868 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 关闭了连接
+2017-06-25 17:39:25,869 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 打开了连接
+2017-06-25 17:39:25,870 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:39:25,870 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,870 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:39:25,870 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:39:25 +08:00
+ 执行
+2017-06-25 17:39:25,871 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:39:25,871 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:39:25,871 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:39:25 +08:00
+ 关闭了连接
+2017-06-25 17:40:54,256 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 打开了连接
+2017-06-25 17:40:54,257 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:40:54,257 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,257 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:40:54,257 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:40:54 +08:00
+ 执行
+2017-06-25 17:40:54,258 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:40:54,258 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,258 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 关闭了连接
+2017-06-25 17:40:54,259 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 打开了连接
+2017-06-25 17:40:54,260 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:40:54,260 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,260 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:40:54,260 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:40:54 +08:00
+ 执行
+2017-06-25 17:40:54,260 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:40:54,261 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,261 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 关闭了连接
+2017-06-25 17:40:54,262 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 打开了连接
+2017-06-25 17:40:54,262 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:40:54,262 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,262 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:40:54,262 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:40:54 +08:00
+ 执行
+2017-06-25 17:40:54,263 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:40:54,263 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:40:54,263 [15] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:40:54 +08:00
+ 关闭了连接
+2017-06-25 17:43:39,833 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 打开了连接
+2017-06-25 17:43:39,834 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:43:39,835 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,835 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:43:39,835 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:43:39 +08:00
+ 执行
+2017-06-25 17:43:39,836 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:43:39,836 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,836 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 关闭了连接
+2017-06-25 17:43:39,837 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 打开了连接
+2017-06-25 17:43:39,838 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:43:39,838 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,838 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:43:39,838 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:43:39 +08:00
+ 执行
+2017-06-25 17:43:39,839 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:43:39,839 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,839 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 关闭了连接
+2017-06-25 17:43:39,840 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 打开了连接
+2017-06-25 17:43:39,840 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:43:39 +08:00
+ 执行
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:43:39,841 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:43:39 +08:00
+ 关闭了连接
+2017-06-25 17:46:21,178 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 打开了连接
+2017-06-25 17:46:21,180 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:46:21,180 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,180 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:46:21,180 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:46:21 +08:00
+ 执行
+2017-06-25 17:46:21,180 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:46:21,181 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,181 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 关闭了连接
+2017-06-25 17:46:21,182 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 打开了连接
+2017-06-25 17:46:21,183 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:46:21,183 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,183 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:46:21,183 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:46:21 +08:00
+ 执行
+2017-06-25 17:46:21,184 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:46:21,184 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,184 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 关闭了连接
+2017-06-25 17:46:21,185 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 打开了连接
+2017-06-25 17:46:21,186 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:46:21,186 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,186 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:46:21,186 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:46:21 +08:00
+ 执行
+2017-06-25 17:46:21,187 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:46:21,187 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:46:21,187 [26] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:46:21 +08:00
+ 关闭了连接
+2017-06-25 17:47:11,795 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 打开了连接
+2017-06-25 17:47:11,796 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:47:11,796 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,796 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:47:11,796 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:47:11 +08:00
+ 执行
+2017-06-25 17:47:11,796 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:47:11,797 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,797 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 关闭了连接
+2017-06-25 17:47:11,798 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 打开了连接
+2017-06-25 17:47:11,798 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:47:11,799 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,799 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:47:11,799 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:47:11 +08:00
+ 执行
+2017-06-25 17:47:11,799 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:47:11,799 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,800 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 关闭了连接
+2017-06-25 17:47:11,800 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 打开了连接
+2017-06-25 17:47:11,801 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:47:11,801 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,801 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:47:11,801 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:47:11 +08:00
+ 执行
+2017-06-25 17:47:11,802 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:47:11,802 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:47:11,802 [27] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:47:11 +08:00
+ 关闭了连接
+2017-06-25 17:48:08,647 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 打开了连接
+2017-06-25 17:48:08,648 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:48:08,648 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,648 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:48:08,648 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:48:08 +08:00
+ 执行
+2017-06-25 17:48:08,649 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:48:08,649 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,649 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 关闭了连接
+2017-06-25 17:48:08,650 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 打开了连接
+2017-06-25 17:48:08,651 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:48:08,651 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,651 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:48:08,651 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:48:08 +08:00
+ 执行
+2017-06-25 17:48:08,651 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:48:08,652 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,652 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 关闭了连接
+2017-06-25 17:48:08,653 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 打开了连接
+2017-06-25 17:48:08,653 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:48:08,653 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,654 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:48:08,654 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:48:08 +08:00
+ 执行
+2017-06-25 17:48:08,654 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:48:08,654 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:48:08,654 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:48:08 +08:00
+ 关闭了连接
+2017-06-25 17:49:37,549 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 打开了连接
+2017-06-25 17:49:37,550 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:49:37,550 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,550 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:49:37,550 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:49:37 +08:00
+ 执行
+2017-06-25 17:49:37,551 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:49:37,551 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,551 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 关闭了连接
+2017-06-25 17:49:37,552 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 打开了连接
+2017-06-25 17:49:37,553 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:49:37,553 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,553 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:49:37,553 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:49:37 +08:00
+ 执行
+2017-06-25 17:49:37,554 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:49:37,554 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,554 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 关闭了连接
+2017-06-25 17:49:37,555 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 打开了连接
+2017-06-25 17:49:37,556 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:49:37,556 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,556 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:49:37,556 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:49:37 +08:00
+ 执行
+2017-06-25 17:49:37,557 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:49:37,557 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:49:37,557 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:49:37 +08:00
+ 关闭了连接
+2017-06-25 17:51:16,190 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 打开了连接
+2017-06-25 17:51:16,191 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:51:16,191 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,191 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:51:16,191 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:51:16 +08:00
+ 执行
+2017-06-25 17:51:16,192 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:51:16,192 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,193 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 关闭了连接
+2017-06-25 17:51:16,194 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 打开了连接
+2017-06-25 17:51:16,195 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:51:16,195 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,195 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:51:16,195 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:51:16 +08:00
+ 执行
+2017-06-25 17:51:16,195 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:51:16,196 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,196 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 关闭了连接
+2017-06-25 17:51:16,197 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 打开了连接
+2017-06-25 17:51:16,198 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:51:16,198 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,198 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:51:16,198 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:51:16 +08:00
+ 执行
+2017-06-25 17:51:16,199 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:51:16,199 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:51:16,199 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:51:16 +08:00
+ 关闭了连接
+2017-06-25 17:54:38,693 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 打开了连接
+2017-06-25 17:54:38,771 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:54:38,771 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,771 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 17:54:38,771 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:54:38 +08:00
+ 执行
+2017-06-25 17:54:38,772 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:54:38,772 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,772 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 关闭了连接
+2017-06-25 17:54:38,773 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 打开了连接
+2017-06-25 17:54:38,773 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:54:38,773 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,773 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 17:54:38,773 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:54:38 +08:00
+ 执行
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 关闭了连接
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 打开了连接
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 17:54:38 +08:00
+ 执行
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 17:54:38,774 [7] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 17:54:38 +08:00
+ 关闭了连接
+2017-06-25 18:00:30,168 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 打开了连接
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:00:30 +08:00
+ 执行
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:00:30,250 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,251 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 关闭了连接
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 打开了连接
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:00:30 +08:00
+ 执行
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,252 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 关闭了连接
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 打开了连接
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:00:30 +08:00
+ 执行
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:00:30,253 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:00:30 +08:00
+ 关闭了连接
+2017-06-25 18:02:50,592 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 打开了连接
+2017-06-25 18:02:50,674 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:02:50,675 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,675 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:02:50,675 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:02:50 +08:00
+ 执行
+2017-06-25 18:02:50,675 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:02:50,675 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,676 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 关闭了连接
+2017-06-25 18:02:50,677 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 打开了连接
+2017-06-25 18:02:50,677 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:02:50,677 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,677 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:02:50,677 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:02:50 +08:00
+ 执行
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 关闭了连接
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 打开了连接
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:02:50,678 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:02:50 +08:00
+ 执行
+2017-06-25 18:02:50,679 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:02:50,679 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:02:50,679 [10] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:02:50 +08:00
+ 关闭了连接
+2017-06-25 18:06:48,266 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 打开了连接
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:06:48 +08:00
+ 执行
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:06:48,339 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,340 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 关闭了连接
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 打开了连接
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:06:48 +08:00
+ 执行
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 关闭了连接
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 打开了连接
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:06:48,341 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,342 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:06:48,342 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:06:48 +08:00
+ 执行
+2017-06-25 18:06:48,342 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:06:48,342 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:06:48,342 [8] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:06:48 +08:00
+ 关闭了连接
+2017-06-25 18:09:03,840 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 打开了连接
+2017-06-25 18:09:03,841 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:09:03,841 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,841 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:09:03,841 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:09:03 +08:00
+ 执行
+2017-06-25 18:09:03,842 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:09:03,842 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,842 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 关闭了连接
+2017-06-25 18:09:03,843 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 打开了连接
+2017-06-25 18:09:03,844 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:09:03,844 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,844 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:09:03,844 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:09:03 +08:00
+ 执行
+2017-06-25 18:09:03,845 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:09:03,845 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,845 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 关闭了连接
+2017-06-25 18:09:03,846 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 打开了连接
+2017-06-25 18:09:03,847 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:09:03,847 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,847 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:09:03,847 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:09:03 +08:00
+ 执行
+2017-06-25 18:09:03,848 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:09:03,848 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:09:03,848 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:09:03 +08:00
+ 关闭了连接
+2017-06-25 18:10:37,636 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 打开了连接
+2017-06-25 18:10:37,735 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:10:37,735 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,736 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:10:37,736 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:10:37 +08:00
+ 执行
+2017-06-25 18:10:37,736 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:10:37,736 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,737 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 关闭了连接
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 打开了连接
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:10:37 +08:00
+ 执行
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,738 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 关闭了连接
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 打开了连接
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:10:37 +08:00
+ 执行
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:10:37,739 [6] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:10:37 +08:00
+ 关闭了连接
+2017-06-25 18:13:14,145 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 打开了连接
+2017-06-25 18:13:14,145 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:13:14,145 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,146 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:13:14,146 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:13:14 +08:00
+ 执行
+2017-06-25 18:13:14,146 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:13:14,146 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,146 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 关闭了连接
+2017-06-25 18:13:14,147 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 打开了连接
+2017-06-25 18:13:14,147 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:13:14,147 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,147 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:13:14,147 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:13:14 +08:00
+ 执行
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 关闭了连接
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 打开了连接
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:13:14,148 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:13:14 +08:00
+ 执行
+2017-06-25 18:13:14,149 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:13:14,149 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:13:14,149 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:13:14 +08:00
+ 关闭了连接
+2017-06-25 18:15:12,447 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 打开了连接
+2017-06-25 18:15:12,536 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:15:12,536 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,536 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:15:12,536 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:15:12 +08:00
+ 执行
+2017-06-25 18:15:12,537 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:15:12,537 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,538 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 关闭了连接
+2017-06-25 18:15:12,538 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 打开了连接
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:15:12 +08:00
+ 执行
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 关闭了连接
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 打开了连接
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:15:12 +08:00
+ 执行
+2017-06-25 18:15:12,539 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:15:12,540 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:15:12,540 [9] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:15:12 +08:00
+ 关闭了连接
+2017-06-25 18:31:54,867 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 打开了连接
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:31:54 +08:00
+ 执行
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:31:54,954 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,955 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 关闭了连接
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 打开了连接
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:31:54 +08:00
+ 执行
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,956 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 关闭了连接
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 打开了连接
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:31:54 +08:00
+ 执行
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:31:54,957 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:31:54 +08:00
+ 关闭了连接
+2017-06-25 18:33:42,684 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 打开了连接
+2017-06-25 18:33:42,685 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:33:42,685 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,685 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:33:42,685 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:33:42 +08:00
+ 执行
+2017-06-25 18:33:42,686 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:33:42,686 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,686 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 关闭了连接
+2017-06-25 18:33:42,688 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 打开了连接
+2017-06-25 18:33:42,688 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:33:42,688 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,688 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:33:42,689 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:33:42 +08:00
+ 执行
+2017-06-25 18:33:42,689 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:33:42,689 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,689 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 关闭了连接
+2017-06-25 18:33:42,690 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 打开了连接
+2017-06-25 18:33:42,691 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:33:42,691 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,691 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:33:42,691 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:33:42 +08:00
+ 执行
+2017-06-25 18:33:42,692 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:33:42,692 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:33:42,692 [13] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:33:42 +08:00
+ 关闭了连接
+2017-06-25 18:40:16,087 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 打开了连接
+2017-06-25 18:40:16,193 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:40:16,193 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,194 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:40:16,194 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:40:16 +08:00
+ 执行
+2017-06-25 18:40:16,194 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:40:16,194 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,195 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 关闭了连接
+2017-06-25 18:40:16,196 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 打开了连接
+2017-06-25 18:40:16,196 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:40:16,196 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,196 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:40:16,196 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:40:16 +08:00
+ 执行
+2017-06-25 18:40:16,197 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 1 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:40:16,197 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,197 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 关闭了连接
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 打开了连接
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:40:16 +08:00
+ 执行
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:40:16,198 [14] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:40:16 +08:00
+ 关闭了连接
+2017-06-25 18:53:33,649 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 打开了连接
+2017-06-25 18:53:33,723 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:53:33,723 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,724 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:53:33,724 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:53:33 +08:00
+ 执行
+2017-06-25 18:53:33,724 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:53:33,724 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,725 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 关闭了连接
+2017-06-25 18:53:33,725 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 打开了连接
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:53:33 +08:00
+ 执行
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 关闭了连接
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 打开了连接
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:53:33,726 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:53:33 +08:00
+ 执行
+2017-06-25 18:53:33,727 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:53:33,727 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:53:33,727 [30] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:53:33 +08:00
+ 关闭了连接
+2017-06-25 18:54:35,594 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 打开了连接
+2017-06-25 18:54:35,594 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:54:35,594 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,594 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:54:35,594 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:54:35 +08:00
+ 执行
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 关闭了连接
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 打开了连接
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:54:35,595 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:54:35 +08:00
+ 执行
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 关闭了连接
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 打开了连接
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:54:35 +08:00
+ 执行
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:54:35,596 [19] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:54:35 +08:00
+ 关闭了连接
+2017-06-25 18:56:49,689 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 打开了连接
+2017-06-25 18:56:49,690 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:56:49,690 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,690 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 18:56:49,690 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:56:49 +08:00
+ 执行
+2017-06-25 18:56:49,691 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:56:49,691 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,691 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 关闭了连接
+2017-06-25 18:56:49,693 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 打开了连接
+2017-06-25 18:56:49,693 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:56:49 +08:00
+ 执行
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,694 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 关闭了连接
+2017-06-25 18:56:49,695 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 打开了连接
+2017-06-25 18:56:49,696 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 18:56:49,696 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,696 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 18:56:49,696 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:56:49 +08:00
+ 执行
+2017-06-25 18:56:49,697 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:56:49,697 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:56:49,697 [29] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:56:49 +08:00
+ 关闭了连接
+2017-06-25 18:57:00,088 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 打开了连接
+2017-06-25 18:57:00,109 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[PhoneNum] AS [PhoneNum], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[PasswordSalt] AS [PasswordSalt], 
+    [Extent1].[LoginErrorTimes] AS [LoginErrorTimes], 
+    [Extent1].[LastLoginErrorDateTime] AS [LastLoginErrorDateTime], 
+    [Extent1].[CityId] AS [CityId], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Users] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[PhoneNum] = @p__linq__0)
+2017-06-25 18:57:00,109 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,109 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '13965478522' (Type = AnsiString, Size = 8000)
+
+2017-06-25 18:57:00,109 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:57:00 +08:00
+ 执行
+2017-06-25 18:57:00,112 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 2 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:57:00,112 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,112 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 关闭了连接
+2017-06-25 18:57:00,117 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 打开了连接
+2017-06-25 18:57:00,124 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[T_Users] AS [Extent1]
+        WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[PhoneNum] = @p__linq__0)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2017-06-25 18:57:00,124 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,124 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '13965478522' (Type = AnsiString, Size = 8000)
+
+2017-06-25 18:57:00,124 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:57:00 +08:00
+ 执行
+2017-06-25 18:57:00,126 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 2 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:57:00,126 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,129 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 关闭了连接
+2017-06-25 18:57:00,136 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 打开了连接
+2017-06-25 18:57:00,137 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 启动了事务
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：INSERT [dbo].[T_Users]([PhoneNum], [PasswordHash], [PasswordSalt], [LoginErrorTimes], [LastLoginErrorDateTime], [CityId], [CreateDateTime], [IsDeleted])
+VALUES (@0, @1, @2, @3, NULL, NULL, @4, @5)
+SELECT [Id]
+FROM [dbo].[T_Users]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @0: '13965478522' (Type = AnsiString, Size = 20)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @1: 'F09B080B58AF02CE4A9DDE02EC7FCAA9' (Type = String, Size = 100)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @2: 'cpvcm' (Type = String, Size = 20)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @3: '0' (Type = Int32)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @4: '2017/6/25 18:57:00' (Type = DateTime2)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- @5: 'False' (Type = Boolean)
+
+2017-06-25 18:57:00,141 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 18:57:00 +08:00
+ 执行
+2017-06-25 18:57:00,143 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 1 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 18:57:00,143 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 18:57:00,144 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 提交了事务
+2017-06-25 18:57:00,144 [28] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 18:57:00 +08:00
+ 关闭了连接
+2017-06-25 20:14:06,374 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:06 +08:00
+ 打开了连接
+2017-06-25 20:14:06,991 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 20:14:06,991 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:06,992 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台Name' (Type = String, Size = 4000)
+
+2017-06-25 20:14:06,992 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 20:14:06 +08:00
+ 执行
+2017-06-25 20:14:06,993 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 20:14:06,993 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:07,000 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:06 +08:00
+ 关闭了连接
+2017-06-25 20:14:07,001 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:07 +08:00
+ 打开了连接
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '短信平台AppKey' (Type = String, Size = 4000)
+
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 20:14:07 +08:00
+ 执行
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:07 +08:00
+ 关闭了连接
+2017-06-25 20:14:07,002 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:07 +08:00
+ 打开了连接
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Value] AS [Value], 
+    [Extent1].[CreateDateTime] AS [CreateDateTime], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[T_Settings] AS [Extent1]
+    WHERE (0 = [Extent1].[IsDeleted]) AND ([Extent1].[Name] = @p__linq__0)
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- p__linq__0: '注册短信模板Id' (Type = String, Size = 4000)
+
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 正在 2017/6/25 20:14:07 +08:00
+ 执行
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：-- 已在 0 毫秒内完成，结果为: SqlDataReader
+
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：
+
+2017-06-25 20:14:07,003 [134] DEBUG System.Data.Entity.DbContext - EF执行SQL：已于 2017/6/25 20:14:07 +08:00
+ 关闭了连接

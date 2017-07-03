@@ -1,0 +1,143 @@
+﻿@model ZSZ.AdminWeb.Models.AdminUserAddViewModel
+@using ZSZ.DTO
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form id="formAdd">
+    <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+        <div class="formControls col-5">
+            <input type="text" class="input-text" value="" placeholder="" id="phoneNum" name="phoneNum" datatype="m" nullmsg="手机不能为空">
+        </div>
+        <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>姓名：</label>
+        <div class="formControls col-5">
+            <input type="text" class="input-text" id="name" name="name" datatype="*3-10" nullmsg="姓名不能为空">
+        </div>
+        <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>初始密码：</label>
+        <div class="formControls col-5">
+            <input type="password" placeholder="密码" autocomplete="off" name="password" id="password" value="" class="input-text" datatype="*6-20" nullmsg="密码不能为空">
+        </div>
+        <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>确认密码：</label>
+        <div class="formControls col-5">
+            <input type="password" placeholder="确认新密码" name="password2" id="password2" autocomplete="off" class="input-text Validform_error" errormsg="您两次输入的新密码不一致！" datatype="*6-20" nullmsg="请再输入一次新密码！" recheck="password">
+        </div>
+        <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>邮箱：</label>
+        <div class="formControls col-5">
+            <input type="email" class="input-text" placeholder="" name="email" id="email" datatype="e" nullmsg="请输入邮箱！">
+        </div>
+        <div class="col-4"> </div>
+    </div>
+    <label class="form-label col-3"><span class="c-red">*</span>城市：</label>
+    <div class="row cl">
+        <div class="formControls col-5">
+            @Html.DropDownList("cityId", new SelectList(Model.Cities, nameof(CityDTO.Id), nameof(CityDTO.Name)))
+        </div>
+    </div>
+    <div class="col-12"><label class="form-label col-3"><span class="c-red">*</span>角色：</label></div>
+    <div class="row c1">
+
+        @foreach (var roles in Model.Roles)
+            {
+            <div class="formControls col-3">
+                <input type="checkbox" id="RoleIds_@roles.Id" name="roleIds" value="@roles.Id" />
+                <label for="PermissionIds_@roles.Id">@roles.Name</label>
+                @*label for点击文字也会给复选框打钩*@
+            </div>
+        }
+    </div>
+
+    <div class="row cl">
+        <div class="col-9 col-offset-3">
+            <input class="btn btn-primary radius" type="submit" id="btnSave" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+        </div>
+    </div>
+</form>
+@section FooterScript
+{
+    <script type="text/javascript">
+        var saveAjax = function () {
+            //var name = $("#name").val();
+            //var description = $("#description").val();
+            var formData = $("#formAdd").serializeArray();
+            $.ajax({
+                url: "/AdminUser/Add",
+                type: "post",
+                data: formData,
+                /*
+                data: {
+                    Name: name,
+                    Desctiption: description
+                },
+                */
+                dataType: "json",
+                success: function (res) {
+                    if (res.status == "ok") {
+                        alert("OK");
+                        //刷新父窗口
+                        parent.location.reload();
+                    }
+                    else {
+                        alert("error");
+                    }
+                },
+                error: function () { alert("请求出错") }
+            });
+        };
+
+
+        $(function () {
+            //$("#btnSave").click(saveAjax);
+            //var validForm = $("#formAdd").Validform({ tiptype: 2 });
+            var validForm = $("#formAdd").Validform({ tiptype: 3 });
+            $("#btnSave").click(function () {
+                if (validForm.check(false)) {
+                    saveAjax();
+                }
+            });
+        });
+
+
+        //焦点离开的时候检查手机号的合法性(是否存在)
+        $("#phoneNum").blur(function () {
+            var phoneNum = $(this).val();
+            if (phoneNum.length <= 0) return;
+            $.ajax({
+                //发出Ajax请求，调用CheckPhoneNum方法检查
+                url: "/AdminUser/CheckPhoneNum",
+                dataType: "json",
+                type: "post",
+                data: {
+                    phone: phoneNum
+                },
+                success: function (res) {
+                    if (res.status == "exists") {
+                        layer.msg('这个手机号已经被其他人使用了！', {icon:2,time:3000});
+                    }
+                },
+                erroe: function () {
+                    alert("网络出现故障");
+                }
+            });
+        });
+
+
+
+    </script>
+}
+
+
+
+

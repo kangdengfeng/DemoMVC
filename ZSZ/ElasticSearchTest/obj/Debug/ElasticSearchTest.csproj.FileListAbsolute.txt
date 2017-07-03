@@ -1,0 +1,11 @@
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\ElasticSearchTest.exe.config
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\ElasticSearchTest.exe
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\ElasticSearchTest.pdb
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\Newtonsoft.Json.dll
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\PlainElastic.Net.dll
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\Newtonsoft.Json.xml
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\PlainElastic.Net.pdb
+E:\DemoMVC\ZSZ\ElasticSearchTest\bin\Debug\PlainElastic.Net.xml
+E:\DemoMVC\ZSZ\ElasticSearchTest\obj\Debug\ElasticSearchTest.csprojResolveAssemblyReference.cache
+E:\DemoMVC\ZSZ\ElasticSearchTest\obj\Debug\ElasticSearchTest.exe
+E:\DemoMVC\ZSZ\ElasticSearchTest\obj\Debug\ElasticSearchTest.pdb
