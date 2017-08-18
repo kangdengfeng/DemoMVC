@@ -13,6 +13,6 @@
         房源图片使用云存储
         乐观锁解决预约看房的并发问题
         UEditor编辑器的配置
-   尚未完成
-        ElasticSearch改造房源搜索
+   
+        ElasticSearch改造房源搜索(尚未全部完成)
         
